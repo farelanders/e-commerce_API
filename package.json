@@ -1,0 +1,15 @@
+{
+  "name": "desafiogamagrupo8",
+  "version": "1.0.0",
+  "description": "criação de crud com banco de dados mysql",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Grupo 8",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5"
+  }
+}
