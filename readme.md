@@ -71,8 +71,10 @@ Para isso, trabalhamos construção de Backend utlizando as tecnologias MySQL e 
 
 1 - Para usar e testar a API, você precisa importar o arquivo DB.sql da pasta /db_mysql no mySQL Workbench ou via console.
 
-2 - Alterar no arquivo index.js seu usuário e senha do banco de dados:
-<img src='./imgpaste/2021-06-03-14-42-26.png'>\
+2 - Alterar no arquivo index.js seu usuário e senha do banco de dados: <br>
+<img src='./imgpaste/2021-06-03-14-42-26.png'>
+
+
 
 
 3 - Rodar o arquivo index.js via console com o comando:
