@@ -7,7 +7,7 @@ var mysql = require('mysql2');
 var connection = mysql.createConnection({
     host: 'localhost',
     user: 'root',
-    password: 'root',
+    password: 'root@localhost',
     database: 'desafio_hacker_grupo8'
 });
 connection.connect();
