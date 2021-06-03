@@ -32,8 +32,6 @@
 </details>
 
 
-
-
 ## Sobre o Projeto
 
 Este projeto tem o objetivo de criar uma API para consultar e cadastrar objetos no banco de dados do Desafio 1 (individual). 
@@ -48,7 +46,7 @@ Para isso, trabalhamos construção de Backend utlizando as tecnologias MySQL e 
 
 ⚠️ [NodeJS](https://nodejs.org/en/download/)
 
-​		<li>Pacotes: Express, mysql2 e bodyparser</li>
+- Pacotes: Express, mysql2 e bodyparser
 
 ⚠️ [MySQL](https://www.mysql.com/downloads/)
 
