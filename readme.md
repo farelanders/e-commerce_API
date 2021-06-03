@@ -5,9 +5,9 @@
   <p align="center">
     Projeto de criação de processos HTTP.
       <br><br>
-    Status do Projeto: Entrega 1 :heavy_check_mark:
+      <bold>Status do Projeto:</bold> Entrega 1 :heavy_check_mark:
 
- 
+
 
 <details open="open">
   <summary>Conteúdo</summary>
