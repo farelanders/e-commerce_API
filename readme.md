@@ -2,10 +2,10 @@
 
   <h3 align="center">Desafio em Grupo - API - Grupo 8</h3>
 
-  <p align="center">
+  <p align="center"><br>
     Projeto de criação de processos HTTP.
       <br><br>
-      <bold>Status do Projeto:</bold> Entrega 1 :heavy_check_mark:
+      <strong>Status do Projeto:</strong> Entrega 1 :heavy_check_mark:
 
 
 
