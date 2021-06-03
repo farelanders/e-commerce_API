@@ -28,7 +28,7 @@ app.get('/api/v1/produto', (req, res) => {
 //2 - pega produto por ID especifico
 app.get('/api/v1/produto/:produtoId', (req, res) => {
     connection.query('SELECT produtos.id, descricao, valor, estoque, departamento.nome as departamento FROM produtos inner join departamento on departamento.id = produtos.departamento where produtos.id =' + req.params.produtoId, function (err, rows, fields) {
-        if (req.params.produtoId = !rows[0]) {
+        if (req.params.produtoId =! rows[0]) {
             res.status(404).json('Erro 404, produto não encontrado')
         } else {
             res.json(rows)
@@ -91,7 +91,7 @@ app.get('/api/v1/departamento', (req, res) => {
 //6 - pega departamento por id especifico e mostra todos seus produtos relacionados
 app.get('/api/v1/departamento/:departamentoId', (req, res) => {
     connection.query('select departamento.nome as departamento, produtos.descricao, produtos.valor, produtos.estoque from produtos inner join departamento on produtos.departamento = departamento.id where departamento.id =' + req.params.departamentoId, function (err, rows, fields) {
-        if (req.params.departamentoId = !rows[0]) {
+        if (req.params.departamentoId =! rows[0]) {
             res.status(404).json('Erro 404, departamento não encontrado')
         } else {
             res.json(rows)
