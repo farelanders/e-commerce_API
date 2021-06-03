@@ -21,6 +21,7 @@ app.get('/api/v1/produto', (req, res) => {
 })
 
 //2 - pega produto por ID especifico
+
 app.get('/api/v1/produto/:produtoId', (req, res) => {
     connection.query('SELECT produtos.id, descricao, valor, estoque, departamento.nome as departamento FROM produtos inner join departamento on departamento.id = produtos.departamento where produtos.id =' + req.params.produtoId, function (err, rows, fields) {
         if (req.params.produtoId = !rows[0]) {
