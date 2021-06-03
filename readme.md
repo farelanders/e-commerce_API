@@ -19,7 +19,7 @@
       </ul>
     </li>
     <li><a href="#usando">Usando</a></li>
-    <li><a href="#contato">Contact</a></li>
+    <li><a href="#contato">Contato</a></li>
   </ol>
 </details>
 
