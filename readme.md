@@ -46,7 +46,7 @@ Para isso, trabalhamos construção de Backend utlizando as tecnologias MySQL e 
 
 ⚠️ [NodeJS](https://nodejs.org/en/download/)
 
-- Pacotes: Express, mysql2 e bodyparser
+- Pacotes: Express, mysql2
 
 ⚠️ [MySQL](https://www.mysql.com/downloads/)
 
